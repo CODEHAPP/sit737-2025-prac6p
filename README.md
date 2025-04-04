@@ -67,10 +67,4 @@ Then, visit `http://localhost:3000` in your browser.
 └── ... other project files
 ```
 
-## Submission Details
-- Ensure all source code and `Dockerfile` are pushed to GitHub.
-- The repository should be named `sit737-2025-prac5d`.
-- Include this README file for step-by-step deployment instructions.
 
-## License
-This project is for educational purposes under SIT737 coursework.
