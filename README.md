@@ -34,6 +34,7 @@ Before proceeding, ensure you have the following tools installed:
        --location=us-central1 \
        --description="My private Docker registry"
    ```
+![image](https://github.com/user-attachments/assets/e803ff20-219e-4b21-8b3c-a443da0607d7)
 
 ### Step 2: Authenticate Docker with Google Cloud
 ```sh
