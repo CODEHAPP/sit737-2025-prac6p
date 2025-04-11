@@ -45,6 +45,7 @@ gcloud auth configure-docker
 ```sh
 docker build -t gcr.io/sit737-25t1-feng-2a9fd31/my-microservice:latest .
 ```
+![image](https://github.com/user-attachments/assets/6a359063-a1e6-40c5-873e-1a8954daf05e)
 
 ### Step 4: Push the Docker Image to Google Cloud Registry
 ```sh
