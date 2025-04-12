@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodejs-kube-app-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nodejs-kube-app
+  template:
+    metadata:
+      labels:
+        app: nodejs-kube-app
+    spec:
+      containers:
+        - name: nodejs-kube-app
+          image: australia-southeast2-docker.pkg.dev/sit737-25t1-feng-2a9fd31/my-repo/nodejs-kube-app:v2
+
+          ports:
+            - containerPort: 3000
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "0.5"
+            requests:
+              memory: "256Mi"
+              cpu: "0.25"

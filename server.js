@@ -3,7 +3,8 @@ const app = express();
 const port = process.env.PORT || 3000;  // 默认使用 3000 端口
 
 app.get('/', (req, res) => {
-    res.send('Hello, Dockerized SIT737 Web App!');
+    res.send('Hello from version 2!');
+
 });
 
 // 监听 3000 端口
