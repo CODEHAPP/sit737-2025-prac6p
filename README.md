@@ -51,6 +51,7 @@ docker build -t gcr.io/sit737-25t1-feng-2a9fd31/my-microservice:latest .
 ```sh
 docker push gcr.io/sit737-25t1-feng-2a9fd31/my-microservice:latest
 ```
+![image](https://github.com/user-attachments/assets/5b8a0a1e-6be1-4e6c-82f7-a4e55b9d653b)
 
 ### Step 5: Verify the Deployment
 Run the following command to ensure the microservice is working correctly:
@@ -58,6 +59,8 @@ Run the following command to ensure the microservice is working correctly:
 docker run -d -p 3000:3000 gcr.io/sit737-25t1-feng-2a9fd31/my-microservice:latest
 ```
 Then, visit `http://localhost:3000` in your browser.
+![image](https://github.com/user-attachments/assets/e621d264-f990-49e4-b839-c46f0c4dfb40)
+![image](https://github.com/user-attachments/assets/8245cff0-a149-498d-964c-c16d949a420b)
 
 ## Repository Structure
 ```
