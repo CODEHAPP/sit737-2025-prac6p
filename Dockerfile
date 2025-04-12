@@ -13,8 +13,8 @@ RUN npm install
 # Copy all the files from the current directory to the container
 COPY . .
 
-# Expose the application port
-EXPOSE 8080
+# Expose the application port (aligning with port 3000)
+EXPOSE 3000
 
 # Start the application
 CMD ["node", "server.js"]
