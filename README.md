@@ -69,10 +69,11 @@ sit737-2025-prac6p/
 ✅ Cluster created in GCP
 ![image](https://github.com/user-attachments/assets/de95dfb8-0133-4cfa-abcb-7d83cfe97a4a)
 ✅ Docker image pushed to GCR
+![image](https://github.com/user-attachments/assets/16622b0b-31a9-40a1-a8c2-ef56210b418b)
 
 ✅ Successful output of kubectl apply
-
-✅ Screenshot showing app accessible via browser
-
 ✅ kubectl get pods and kubectl get service terminal output
+![image](https://github.com/user-attachments/assets/1d356847-7ef0-4761-9e12-28db9423114b)
+
+
 
