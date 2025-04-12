@@ -67,8 +67,7 @@ sit737-2025-prac6p/
     └── package.json
 🖼 Screenshots (Include in GitHub)
 ✅ Cluster created in GCP
-<img width="656" alt="Screenshot 2025-04-12 at 12 34 33 pm" src="https://github.com/user-attachments/assets/20d6797e-a161-4199-8f3d-f510f37138da" />
-
+![image](https://github.com/user-attachments/assets/de95dfb8-0133-4cfa-abcb-7d83cfe97a4a)
 ✅ Docker image pushed to GCR
 
 ✅ Successful output of kubectl apply
